@@ -50,7 +50,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>\n\n<b>🛑SPECIAL PROMO GRUB VVIP🛑\n\n✨VVIP INDO 50K✨\n✨VVIP BARAT 50K✨\n✨VVIP JAV 50K✨\n✨VVIP SPECIAL 50K✨\n✨VVIP COLMEK 50K✨\n✨VVIP ONLYFANS 50K✨\n✨VVIP CAMPURAN 50K✨\n✨VVIP BDSM 50K✨\n✨HIJAB 50K✨\n✨PELAJAR 50K✨\n✨VVIP SULTAN 100K✨\n✨VVIP PREMIUM SULTAN 200K✨\n✨VVIP BOCIL 150K✨\nVVIP SULTAN 20000+MEDIA\nVVIP PREMIUM SULTAN 38.000+MEDIA UPDATE SETIAP SAAT\n\n\n\nPAYMENT:\n🤑DANA\n💷OVO\n🛵 GOPAY\n\nKEUNTUNGAN JOIN VIP ⤵️\n✅ BERGARANSI\n✅ NONTON VIDEO TANPA LINK\n✅ PERMANENT\n✅ UPDATE SETIAP SAAT\n✅ CUKUP SEKALI BAYAR NONTON SEPUASNYA\n\n📞ADMIN: @serly69 📞\nᴊɪᴋᴀ ᴀɴᴅᴀ ʟɪᴍɪᴛ ʙɪꜱᴀ ᴘᴄ ʙᴏᴛ ᴄᴜꜱᴛᴏᴍᴇʀ ꜱᴇʀᴠɪᴄᴇ\nᴏʀᴅᴇʀ ᴠɪᴀ ʙᴏᴛ 💐\nʟᴀɴɢꜱᴜɴɢ ᴘᴄ\n└»  @clayasisten_bot</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "6207221547 1962436343").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "6207221547 1962436343 5589797950").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
