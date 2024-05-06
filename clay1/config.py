@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6746075059:AAEEG-sRIzeeb_Dvp1vZWeReIwA_RVTsJFQ")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6310126350:AAH0z3X5ahGQYTudIqFtYVAdlxHRXteRXvY")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "11381402"))
@@ -20,7 +20,7 @@ APP_ID = int(os.environ.get("APP_ID", "11381402"))
 API_HASH = os.environ.get("API_HASH", "349d6f6868d82dc82c7a9b356051f035")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001913882884"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002031072963"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "0")
@@ -36,28 +36,28 @@ HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://eshwedsg:3ntBm9eoo6iZss03ZqXOIRpUdb_dtrp-@jelani.db.elephantsql.com/eshwedsg")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://brazypdv:WpZfm7rEP6F5s8V5wl-zFORIJv-RLGEu@lucky.db.elephantsql.com/brazypdv")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001693501379"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001664183430"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002015122098"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>\n\n<b>🛑SPECIAL PROMO GRUB VVIP🛑\n\n✨VVIP INDO 50K✨\n✨VVIP BARAT 50K✨\n✨VVIP JAV 50K✨\n✨VVIP SPECIAL 50K✨\n✨VVIP COLMEK 50K✨\n✨VVIP ONLYFANS 50K✨\n✨VVIP CAMPURAN 50K✨\n✨VVIP BDSM 50K✨\n✨HIJAB 50K✨\n✨PELAJAR 50K✨\n✨VVIP SULTAN 100K✨\n✨VVIP PREMIUM SULTAN 200K✨\n✨VVIP BOCIL 150K✨\nVVIP SULTAN 20000+MEDIA\nVVIP PREMIUM SULTAN 38.000+MEDIA UPDATE SETIAP SAAT\n\n\n\nPAYMENT:\n🤑DANA\n💷OVO\n🛵 GOPAY\n\nKEUNTUNGAN JOIN VIP ⤵️\n✅ BERGARANSI\n✅ NONTON VIDEO TANPA LINK\n✅ PERMANENT\n✅ UPDATE SETIAP SAAT\n✅ CUKUP SEKALI BAYAR NONTON SEPUASNYA\n\n📞ADMIN: @serly69 📞\nᴊɪᴋᴀ ᴀɴᴅᴀ ʟɪᴍɪᴛ ʙɪꜱᴀ ᴘᴄ ʙᴏᴛ ᴄᴜꜱᴛᴏᴍᴇʀ ꜱᴇʀᴠɪᴄᴇ\nᴏʀᴅᴇʀ ᴠɪᴀ ʙᴏᴛ 💐\nʟᴀɴɢꜱᴜɴɢ ᴘᴄ\n└»  @clayasisten_bot</b>",
+    "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>\n\n<b>🛑SPECIAL PROMO GRUB VVIP🛑</b>\n\n<b>✨VVIP INDO 50K✨</b>\n<b>✨VVIP BARAT 50K✨</b>\n<b>✨VVIP JAV 50K✨</b>\n<b>✨VVIP SPECIAL 50K✨</b>\n<b>✨VVIP COLMEK 50K✨</b>\n<b>✨VVIP ONLYFANS 50K✨</b>\n<b>✨VVIP CAMPURAN 50K✨</b>\n<b>✨VVIP BDSM 50K✨</b>\n<b>✨HIJAB 50K✨</b>\n<b>✨PELAJAR 50K✨</b>\n<b>✨VVIP SULTAN 100K✨</b>\n<b>✨VVIP PREMIUM SULTAN 200K✨</b>\n<b>✨VVIP BOCIL 150K✨</b>\n<b>VVIP SULTAN 20000+MEDIA</b>\n<b>VVIP PREMIUM SULTAN 38.000+MEDIA UPDATE SETIAP SAAT</b>\n\n\n\n<b>PAYMENT:</b>\n<b>🤑DANA</b>\n<b>💷OVO</b>\n<b>🛵 GOPAY</b>\n\n<b>KEUNTUNGAN JOIN VIP ⤵️</b>\n<b>✅ BERGARANSI</b>\n<b>✅ NONTON VIDEO TANPA LINK</b>\n<b>✅ PERMANENT</b>\n<b>✅ UPDATE SETIAP SAAT</b>\n<b>✅ CUKUP SEKALI BAYAR NONTON SEPUASNYA</b>\n\n<b>📞ADMIN: @vanesacanci 📞</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "6207221547 1962436343 5589797950").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5643418251 5589797950").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu</b>\n\n<b>🛑SPECIAL PROMO GRUB VVIP🛑\n\n✨VVIP INDO 50K✨\n✨VVIP BARAT 50K✨\n✨VVIP JAV 50K✨\n✨VVIP SPECIAL 50K✨\n✨VVIP COLMEK 50K✨\n✨VVIP ONLYFANS 50K✨\n✨VVIP CAMPURAN 50K✨\n✨VVIP BDSM 50K✨\n✨HIJAB 50K✨\n✨PELAJAR 50K✨\n✨VVIP SULTAN 100K✨\n✨VVIP PREMIUM SULTAN 200K✨\n✨VVIP BOCIL 150K✨\nVVIP SULTAN 20000+MEDIA\nVVIP PREMIUM SULTAN 38.000+MEDIA UPDATE SETIAP SAAT\n\n\n\nPAYMENT:\n🤑DANA\n💷OVO\n🛵 GOPAY\n\nKEUNTUNGAN JOIN VIP ⤵️\n✅ BERGARANSI\n✅ NONTON VIDEO TANPA LINK\n✅ PERMANENT\n✅ UPDATE SETIAP SAAT\n✅ CUKUP SEKALI BAYAR NONTON SEPUASNYA\n\n📞ADMIN: @serly69 📞\nᴊɪᴋᴀ ᴀɴᴅᴀ ʟɪᴍɪᴛ ʙɪꜱᴀ ᴘᴄ ʙᴏᴛ ᴄᴜꜱᴛᴏᴍᴇʀ ꜱᴇʀᴠɪᴄᴇ\nᴏʀᴅᴇʀ ᴠɪᴀ ʙᴏᴛ 💐\nʟᴀɴɢꜱᴜɴɢ ᴘᴄ\n└»  @clayasisten_bot</b>",
+    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu</b>\n\n<b>🛑SPECIAL PROMO GRUB VVIP🛑</b>\n\n<b>✨VVIP INDO 50K✨</b>\n<b>✨VVIP BARAT 50K✨</b>\n<b>✨VVIP JAV 50K✨</b>\n<b>✨VVIP SPECIAL 50K✨</b>\n<b>✨VVIP COLMEK 50K✨</b>\n<b>✨VVIP ONLYFANS 50K✨</b>\n<b>✨VVIP CAMPURAN 50K✨</b>\n<b>✨VVIP BDSM 50K✨</b>\n<b>✨HIJAB 50K✨</b>\n<b>✨PELAJAR 50K✨</b>\n<b>✨VVIP SULTAN 100K✨</b>\n<b>✨VVIP PREMIUM SULTAN 200K✨</b>\n<b>✨VVIP BOCIL 150K✨</b>\n<b>VVIP SULTAN 20000+MEDIA</b>\n<b>VVIP PREMIUM SULTAN 38.000+MEDIA UPDATE SETIAP SAAT</b>\n\n\n\n<b>PAYMENT:</b>\n<b>🤑DANA</b>\n<b>💷OVO</b>\n<b>🛵 GOPAY</b>\n\n<b>KEUNTUNGAN JOIN VIP ⤵️</b>\n<b>✅ BERGARANSI</b>\n<b>✅ NONTON VIDEO TANPA LINK</b>\n<b>✅ PERMANENT</b>\n<b>✅ UPDATE SETIAP SAAT</b>\n<b>✅ CUKUP SEKALI BAYAR NONTON SEPUASNYA</b>\n\n<b>📞ADMIN: @vanesacanci 📞</b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
