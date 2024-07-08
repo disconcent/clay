@@ -40,14 +40,14 @@ DB_URI = os.environ.get("DATABASE_URL", "postgres://brazypdv:WpZfm7rEP6F5s8V5wl-
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002015122098"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001923773687"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>\n\n<b>🛑SPECIAL PROMO GRUB VVIP🛑</b>\n\n<b>✨VVIP INDO 50K✨</b>\n<b>✨VVIP BARAT 50K✨</b>\n<b>✨VVIP JAV 50K✨</b>\n<b>✨VVIP SPECIAL 50K✨</b>\n<b>✨VVIP COLMEK 50K✨</b>\n<b>✨VVIP ONLYFANS 50K✨</b>\n<b>✨VVIP CAMPURAN 50K✨</b>\n<b>✨VVIP BDSM 50K✨</b>\n<b>✨HIJAB 50K✨</b>\n<b>✨PELAJAR 50K✨</b>\n<b>✨VVIP SULTAN 100K✨</b>\n<b>✨VVIP PREMIUM SULTAN 200K✨</b>\n<b>✨VVIP BOCIL 150K✨</b>\n<b>VVIP SULTAN 20000+MEDIA</b>\n<b>VVIP PREMIUM SULTAN 38.000+MEDIA UPDATE SETIAP SAAT</b>\n\n\n\n<b>PAYMENT:</b>\n<b>🤑DANA</b>\n<b>💷OVO</b>\n<b>🛵 GOPAY</b>\n\n<b>KEUNTUNGAN JOIN VIP ⤵️</b>\n<b>✅ BERGARANSI</b>\n<b>✅ NONTON VIDEO TANPA LINK</b>\n<b>✅ PERMANENT</b>\n<b>✅ UPDATE SETIAP SAAT</b>\n<b>✅ CUKUP SEKALI BAYAR NONTON SEPUASNYA</b>\n\n<b>📞ADMIN: @vanesacanci 📞</b>",
+    "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5643418251 5589797950").split())]
@@ -57,7 +57,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu</b>\n\n<b>🛑SPECIAL PROMO GRUB VVIP🛑</b>\n\n<b>✨VVIP INDO 50K✨</b>\n<b>✨VVIP BARAT 50K✨</b>\n<b>✨VVIP JAV 50K✨</b>\n<b>✨VVIP SPECIAL 50K✨</b>\n<b>✨VVIP COLMEK 50K✨</b>\n<b>✨VVIP ONLYFANS 50K✨</b>\n<b>✨VVIP CAMPURAN 50K✨</b>\n<b>✨VVIP BDSM 50K✨</b>\n<b>✨HIJAB 50K✨</b>\n<b>✨PELAJAR 50K✨</b>\n<b>✨VVIP SULTAN 100K✨</b>\n<b>✨VVIP PREMIUM SULTAN 200K✨</b>\n<b>✨VVIP BOCIL 150K✨</b>\n<b>VVIP SULTAN 20000+MEDIA</b>\n<b>VVIP PREMIUM SULTAN 38.000+MEDIA UPDATE SETIAP SAAT</b>\n\n\n\n<b>PAYMENT:</b>\n<b>🤑DANA</b>\n<b>💷OVO</b>\n<b>🛵 GOPAY</b>\n\n<b>KEUNTUNGAN JOIN VIP ⤵️</b>\n<b>✅ BERGARANSI</b>\n<b>✅ NONTON VIDEO TANPA LINK</b>\n<b>✅ PERMANENT</b>\n<b>✅ UPDATE SETIAP SAAT</b>\n<b>✅ CUKUP SEKALI BAYAR NONTON SEPUASNYA</b>\n\n<b>📞ADMIN: @vanesacanci 📞</b>",
+    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu</b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
